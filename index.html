@@ -1,1 +1,82 @@
-
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>つぼみコール</title>
+<style>
+   body{
+     margin:0;
+     font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue",sans-serif;
+     background:#e8f5e9;
+     display:flex;
+     justify-content:center;
+     align-items:center;
+     min-height:100vh;
+   }
+   .card{
+     width:90%;
+     max-width:420px;
+     background:white;
+     border-radius:20px;
+     padding:30px;
+     box-shadow:0 10px 30px rgba(0,0,0,.15);
+   }
+   h1{
+     text-align:center;
+     color:#2e7d32;
+     margin-bottom:5px;
+   }
+   h2{
+     text-align:center;
+     color:#555;
+     font-size:18px;
+     margin-bottom:30px;
+   }
+   label{
+     display:block;
+     margin-top:15px;
+     margin-bottom:5px;
+     font-weight:bold;
+   }
+   input,textarea{
+     width:100%;
+     padding:12px;
+     border-radius:10px;
+     border:1px solid #ccc;
+     box-sizing:border-box;
+     font-size:16px;
+   }
+   textarea{
+     height:90px;
+   }
+   button{
+     width:100%;
+     margin-top:25px;
+     background:#43a047;
+     color:white;
+     border:none;
+     border-radius:12px;
+     padding:15px;
+     font-size:18px;
+     cursor:pointer;
+   }
+   button:hover{
+     background:#2e7d32;
+   }
+</style>
+</head>
+<body>
+<div class="card">
+<h1>🏕️ 岡山つぼみの会</h1>
+<h2>参加受付</h2>
+<label>お名前（必須）</label>
+<input type="text" id="name">
+<label>ひとこと（任意）</label>
+<textarea id="message"></textarea>
+<button>
+📢 受付スタッフを呼ぶ
+</button>
+</div>
+</body>
+</html>
